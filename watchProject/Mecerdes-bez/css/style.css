@@ -1,0 +1,2266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+:root {
+    --color: rgb(0, 0, 0);
+    --color1: #999;
+    --color2: rgb(52, 149, 203);
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Markazi Text', serif;
+    font-size: 14px;
+}
+
+p,
+a,
+span {
+    font-family: 'Markazi Text', serif;
+    font-size: 18px;
+}
+
+/* Header-top */
+
+.header-top {
+    background: rgb(0, 0, 0);
+    position: relative;
+    overflow: visible;
+    height: 130px;
+}
+
+.header-top-section {
+    position: absolute;
+    right: -3px;
+    margin-right: 40px;
+}
+
+.header-top-title {
+    float: right !important;
+    margin-top: 5px
+}
+
+.header-top-title a {
+    color: #999;
+}
+
+.header-top-title a:hover,
+.header-top-title2 a:hover {
+    color: var(--color2);
+}
+
+.header-top-title2 {
+    float: left !important;
+    margin-right: 20px;
+    margin-top: 5px
+}
+
+.header-top-title2 a {
+    color: #999;
+}
+
+.header-top-mbc {
+    border: 0.1px solid;
+    padding: 0.1px 5.1px;
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.navbar--header {
+    background-image: url(../img/mec-3.jpg);
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75px;
+    position: absolute;
+    top: 30px;
+    right: 60em;
+}
+
+.navbar--header--2 {
+    background-image: url(../img/mercedes-benz.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 2em;
+    width: 8em;
+    /* background-color: black; */
+    top: 3.5em;
+    left: 10em;
+    background-size: 7em;
+}
+
+.navbar-nav-header {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    margin-right: 15px;
+}
+
+.collapse--header,
+.nav-item {
+    text-align: center;
+}
+
+.collapse--header,
+.nav-item a:hover {
+    color: rgb(52, 149, 203);
+    transition: 0.5s all;
+    -webkit-transition: all 0.5s;
+}
+
+.collapse--header,
+.nav-item,
+.nav-link {
+    color: #999;
+    font-size: 22px;
+}
+
+.collapse--header,
+.nav-item,
+.nav-link span {
+    font-size: 20px;
+}
+
+.collapse--header,
+.nav-item,
+.nav-link p {
+    font-size: 22px;
+}
+
+.navi-left {
+    border-left: 1px solid #333;
+    float: left;
+    height: 34px;
+    margin-top: 12px;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.header {
+    background: rgb(29, 29, 29);
+    text-align: center;
+    padding: 0.8em;
+}
+
+.header--nav {
+    padding-top: 10px;
+}
+
+.header li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header li a {
+    font-size: 20px;
+    color: var(--color1);
+}
+
+.header li a:hover {
+    color: var(--color2);
+}
+
+/* End Header */
+
+/* Carousel */
+
+.carousel--img img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel--text {
+    position: absolute;
+    bottom: unset;
+    right: unset;
+    top: 35px;
+    left: 7.5%;
+    margin-bottom: 20px;
+    animation: fadeIndown 0.5s forwards 0s ease-in;
+}
+
+@keyframes fadeIndown {
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.carousel--text-2 {
+    margin-left: 2%;
+}
+
+.carousel--text-2::before {
+    display: block;
+    content: "";
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 28px;
+    height: 2px;
+    width: 60px;
+    background: #fff;
+}
+
+.carousel--mbc {
+    text-align: left;
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 0;
+    width: 57%;
+    color: #fff;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.carousel--span {
+    font-size: 40px;
+}
+
+.carousel--mbc--2 {
+    display: block;
+    margin-left: 0;
+    margin-top: 10px;
+    width: 69%;
+    color: #fff;
+    font-family: CorporateSRegular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+    animation: readMore 2s forwards 0s ease-in-out;
+}
+
+@keyframes readMore {
+    0% {
+        transform: translateY(-130%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 2;
+    }
+}
+
+.carousel--bbc {
+    font-size: 40px;
+    width: 76%;
+    text-align: left;
+    color: #333;
+}
+
+.carousel--read {
+    border: 1px solid rgb(32, 32, 32);
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    background: black;
+    animation: readMore 2s forwards 0s ease-in-out;
+}
+
+@keyframes readMore {
+    0% {
+        transform: translateY(-130%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 2;
+    }
+}
+
+.carousel--a {
+    color: white;
+}
+
+.carousel--a:hover {
+    color: white;
+}
+
+.carousel--more {
+    position: absolute;
+    left: 20px;
+    font-size: 18px;
+    top: 5px;
+}
+
+.carousel--more i {
+    font-size: 13px;
+    margin-right: 8px;
+}
+
+.carousel--vbc {
+    font-size: 40px;
+    width: 85%;
+    text-align: left;
+    color: white;
+}
+
+.carousel--item-footer {
+    text-align: left;
+    position: absolute;
+    top: 20em;
+    animation: readMore 2s forwards 0s ease-in-out;
+}
+
+@keyframes readMore {
+    0% {
+        transform: translateY(-130%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 2;
+    }
+}
+
+.carousel--item-it-ft h3 {
+    font-size: 18px;
+}
+
+.search {
+    position: absolute;
+    bottom: 53px;
+    width: 100%;
+    transition: opacity .5s ease-out;
+    height: auto;
+}
+
+.search input {
+    height: 56px;
+    padding: 14px 20px;
+    width: calc(100% - 82px);
+    display: inline-block;
+    vertical-align: top;
+    background: hsla(0, 0%, 93%, .93);
+    border: 1px solid hsla(0, 0%, 93%, .93);
+    color: #333;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.search button {
+    width: 77px;
+    height: 57px;
+    background: #1e1e1e;
+    color: #fff;
+    border: 1px solid #222;
+    margin-left: -4px;
+}
+
+.search .fas.fa-search {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.carousel-indicators {
+    z-index: unset !important;
+}
+
+/* End Carousel */
+
+/* Carousel-control */
+
+.carousel-control-next,
+.carousel-control-prev {
+    top: 12em !important;
+    width: 15%;
+    height: 15%;
+}
+
+/* End Carousel-control */
+
+/* Welcome */
+
+.welcome-title {
+    padding-top: 5em;
+}
+
+.welcome-title-text::before {
+    display: block;
+    content: "";
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 28px;
+    height: 2px;
+    width: 60px;
+    background: black;
+}
+
+.welcome-title-h3 {
+    font-size: 40px;
+}
+
+.welcome-title-p {
+    color: rgb(177, 177, 177);
+}
+
+/* End Welcome */
+
+/* product */
+
+.product-section {
+    padding-top: 5em;
+    background: black;
+    margin-top: 4em;
+    overflow: hidden;
+}
+
+.product-nav {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.product .product-nav .nav-link.active {
+    color: #00adef !important;
+}
+
+.product .product-nav .nav-link {
+    background: linear-gradient(#303030, #202020) !important;
+    border: 1px outset #202020;
+    font-size: 10px !important;
+    padding: .3rem 1.5rem !important;
+}
+
+.product .product-nav .nav-item {
+    margin-bottom: -19px !important;
+}
+
+.product .product-nav .nav-link:hover {
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.product .product-nav .nav-link span {
+    font-size: 14px;
+}
+
+.--one {
+    background: url(../img/00-mercedes-benz-mbsocialcar-glc-350-e-4matic-coupe-c-253-calendar-july-2018-2560x1440-1-848x477.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.item-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.--one:hover .item-content {
+    height: 25%;
+}
+
+.--one:hover .item-content p {
+    opacity: 1;
+}
+
+.item-content p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--two {
+    background: url(../img/mbcom_classic_museum_familientag_museum_logo_2560x1440-848x477.jpg);
+    height: 241px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 469px;
+    position: relative;
+}
+
+.--two:hover .item-content--two {
+    height: 50%;
+    background: rgba(0, 0, 0, .7);
+}
+
+.--two:hover .item-content--two p {
+    opacity: 1;
+}
+
+.item-content--two {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--two h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+}
+
+.item-content--two:hover h4 {
+    white-space: normal;
+}
+
+.item-content--two p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.item-content-overlay {
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 100%;
+    z-index: 20;
+}
+
+.--two:hover .item-content-overlay {
+    opacity: 0;
+}
+
+.item-content-overlay .labeling {
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 3px 0 3px 31px;
+    color: #fff;
+}
+
+span.spacer {
+    display: inline-block;
+}
+
+span.spacer.small {
+    width: 20px;
+}
+
+.item-two {
+    margin-left: -28px;
+}
+
+.--three {
+    background: url(../img/00-mercedes-benz-eqc-summer-testing-prototype-pre-series-vehicle-2560x1440-750x422.jpg);
+    height: 257px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 469px;
+    position: relative;
+}
+
+.item-content--three {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--three h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+}
+
+.--three:hover .item-content--three {
+    height: 50%;
+    background: rgba(0, 0, 0, .7);
+}
+
+.--three:hover .item-content--three p {
+    opacity: 1;
+}
+
+.--three:hover .item-content--three h4 {
+    white-space: normal;
+}
+
+.--three:hover .item-content-overlay {
+    opacity: 0;
+}
+
+.item-content--three p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.item-three {
+    margin-left: -43px;
+    margin-top: 2px;
+}
+
+.--four {
+    background: url(../img/excerptimage-6-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--four:hover .item-content {
+    height: 50%;
+}
+
+.--four:hover .item-content p {
+    opacity: 1;
+}
+
+.--four:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-five {
+    margin-left: -29px;
+}
+
+.--five {
+    background: url(../img/me-magazin_02-2018_zukunftswerkstatt_me_022018_case_de-1_2560x1440-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 456px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--five {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--five h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.--five:hover .item-content--five {
+    height: 50%;
+}
+
+.--five:hover .item-content--five p {
+    opacity: 1;
+}
+
+.--five:hover .item-content--five h4 {
+    white-space: normal;
+}
+
+.item-content--five p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.item-six {
+    margin-left: -28px;
+}
+
+.--six {
+    background: url(../img/dtm-2018-norisring-race-2-1-848x402.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 469px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--six {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--six h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--six p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--six:hover .item-content--six {
+    height: 50%;
+}
+
+.--six:hover .item-content--six p {
+    opacity: 1;
+}
+
+.--six:hover .item-content--six h4 {
+    white-space: normal;
+}
+
+.active-4 {
+    overflow: hidden;
+    margin-left: -13px;
+}
+
+.--seven {
+    background: url(../img/dtm-2018-norisring-race-2-1-848x402.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--seven {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--seven h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--seven p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--seven:hover .item-content--seven {
+    height: 50%;
+}
+
+.--seven:hover .item-content--seven p {
+    opacity: 1;
+}
+
+.--seven:hover .item-content--seven h4 {
+    white-space: normal;
+}
+
+.item-eight {
+    margin-left: -29px;
+}
+
+.--eight {
+    background: url(../img/dtm-2018-norisring-race-1-1-848x402.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 456px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--eight {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--eight h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--eight p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--eight:hover .item-content--eight {
+    height: 50%;
+}
+
+.--eight:hover .item-content--eight p {
+    opacity: 1;
+}
+
+.--eight:hover .item-content--eight h4 {
+    white-space: normal;
+}
+
+.item-nine {
+    margin-left: -28px;
+}
+
+.--nine {
+    background: url(../img/mbcom_classic_historie_startup-spirit_b39394_2560x1440-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 469px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--nine {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--nine h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--nine p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--nine:hover .item-content--nine {
+    height: 50%;
+}
+
+.--nine:hover .item-content--nine p {
+    opacity: 1;
+}
+
+.--nine:hover .item-content--nine h4 {
+    white-space: normal;
+}
+
+.--ten {
+    background: url(../img/me-magazin_02-2018_lewis-hamilton_l1000020_2560x1440-848x477.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.--ten:hover .item-content {
+    height: 25%;
+}
+
+.--ten:hover .item-content p {
+    opacity: 1;
+}
+
+.--ten:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-eleven {
+    margin-left: -28px;
+}
+
+.--eleven {
+    background: url(../img/me-magazin_02-2018_traum-wagen_mercedesbenz_la_story_thomas-6210_0002_2560x1440-848x477.jpg);
+    height: 241px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 469px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--eleven {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--eleven h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--eleven p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--eleven:hover .item-content--eleven {
+    height: 50%;
+}
+
+.--eleven:hover .item-content--eleven p {
+    opacity: 1;
+}
+
+.--eleven:hover .item-content--eleven h4 {
+    white-space: normal;
+}
+
+.item-twelve {
+    margin-left: -43px;
+    margin-top: 2px;
+}
+
+.--eleven:hover .item-content-overlay {
+    opacity: 0;
+}
+
+.--twelve {
+    background: url(../img/mercedes-benz-sprinter-football-worldchampionship-1-848x477.jpg);
+    height: 257px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 469px;
+    position: relative;
+}
+
+.item-content--twelve {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--twelve h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--twelve p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--twelve:hover .item-content--twelve {
+    height: 50%;
+}
+
+.--twelve:hover .item-content--twelve p {
+    opacity: 1;
+}
+
+.--twelve:hover .item-content--twelve h4 {
+    white-space: normal;
+}
+
+.--thirteen {
+    background: url(../img/dtm-2018-norisring-preview-1-848x402.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--thirteen:hover .item-content {
+    height: 50%;
+}
+
+.--thirteen:hover .item-content p {
+    opacity: 1;
+}
+
+.--thirteen:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-fourteen {
+    margin-left: -29px;
+}
+
+.--fourteen {
+    background: url(../img/classic_historie_mille-miglia_d519938_2560x1440-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 456px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--fourteen {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--fourteen h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--fourteen p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--fourteen:hover .item-content--fourteen {
+    height: 50%;
+}
+
+.--fourteen:hover .item-content--fourteen p {
+    opacity: 1;
+}
+
+.--fourteen:hover .item-content--fourteen h4 {
+    white-space: normal;
+}
+
+.item-fifteen {
+    margin-left: -28px;
+}
+
+.--fifteen {
+    background: url(../img/00-mercedes-benz-vehicles-mbsocialcar-v-222-s-class-2560x1440-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 469px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--fifteen {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--fifteen h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--fifteen p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--fifteen:hover .item-content--fifteen {
+    height: 50%;
+}
+
+.--fifteen:hover .item-content--fifteen p {
+    opacity: 1;
+}
+
+.--fifteen:hover .item-content--fifteen h4 {
+    white-space: normal;
+}
+
+.--sixteen {
+    background: url(../img/01-mercedes-benz-what3words-voice-navigation-system-2560x1440-1-848x359.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--sixteen:hover .item-content {
+    height: 50%;
+}
+
+.--sixteen:hover .item-content p {
+    opacity: 1;
+}
+
+.--sixteen:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-seventeen {
+    margin-left: -29px;
+}
+
+.--seventeen {
+    background: url(../img/00-mercedes-benz-wewonder-kevin-ma-hyeres-festival-1280x720-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 456px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--seventeen {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--seventeen h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--seventeen p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--seventeen:hover .item-content--seventeen {
+    height: 50%;
+}
+
+.--seventeen:hover .item-content--seventeen p {
+    opacity: 1;
+}
+
+.--seventeen:hover .item-content--seventeen h4 {
+    white-space: normal;
+}
+
+.item-eighteen {
+    margin-left: -28px;
+}
+
+.--eighteen {
+    background: url(../img/mbcom_classic_museum_public-viewing-18_titel_2560x1440_v2-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 469px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--eighteen {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--eighteen h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--eighteen p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--eighteen:hover .item-content--eighteen {
+    height: 50%;
+}
+
+.--eighteen:hover .item-content--eighteen p {
+    opacity: 1;
+}
+
+.--eighteen:hover .item-content--eighteen h4 {
+    white-space: normal;
+}
+
+.--nineteen {
+    background: url(../img/classic_historie_insights-g-class_d513057_2560x1440-848x477.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--nineteen:hover .item-content {
+    height: 25%;
+}
+
+.--nineteen:hover .item-content p {
+    opacity: 1;
+}
+
+.--nineteen:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-twenty {
+    margin-left: -28px;
+}
+
+.--twenty {
+    background: url(../img/mbcom_classic_museum_eracing_titel_2560x1440-v2-848x477.jpg);
+    height: 241px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 469px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--twenty {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--twenty h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--twenty p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--twenty:hover .item-content--twenty {
+    height: 50%;
+}
+
+.--twenty:hover .item-content--twenty p {
+    opacity: 1;
+}
+
+.--twenty:hover .item-content--twenty h4 {
+    white-space: normal;
+}
+
+.item-twenty-one {
+    margin-left: -43px;
+    margin-top: 2px;
+}
+
+.--twenty-one {
+    background: url(../img/00-mercedes-benz-vehicles-mbsocialcar-w-108-280-se-2560x1440-848x477.jpg);
+    height: 257px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 469px;
+    position: relative;
+}
+
+.item-content--twenty-one {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--twenty-one h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--twenty-one p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--twenty-one:hover .item-content--twenty-one {
+    height: 50%;
+}
+
+.--twenty-one:hover .item-content--twenty-one p {
+    opacity: 1;
+}
+
+.--twenty-one:hover .item-content--twenty-one h4 {
+    white-space: normal;
+}
+
+.--twenty-two {
+    background: url(../img/lifestyle_friends_ralf-moeller_buhne_ralfm_1270_psmod-v2-sw-hggrain_web_2560x1440-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--twenty-two:hover .item-content {
+    height: 50%;
+}
+
+.--twenty-two:hover .item-content p {
+    opacity: 1;
+}
+
+.--twenty-two:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-twenty-three {
+    margin-left: -29px;
+}
+
+.--twenty-three {
+    background: url(../img/dtm-2018-budapest-race-2-1-848x402.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 456px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--twenty-three:hover .item-content {
+    height: 50%;
+}
+
+.--twenty-three:hover .item-content p {
+    opacity: 1;
+}
+
+.--twenty-three:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-twenty-four {
+    margin-left: -28px;
+}
+
+.--twenty-four {
+    background: url(../img/dtm-2018-budapest-race-1-1-848x402.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 469px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--twenty-four:hover .item-content {
+    height: 50%;
+}
+
+.--twenty-four:hover .item-content p {
+    opacity: 1;
+}
+
+.--twenty-four:hover .item-content h4 {
+    white-space: normal;
+}
+
+.--twenty-five {
+    background: url(../img/00-mercedes-benz-wewonder-slick-woods-palm-springs-2560x1440-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--twenty-five:hover .item-content {
+    height: 50%;
+}
+
+.--twenty-five:hover .item-content p {
+    opacity: 1;
+}
+
+.--twenty-five:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-twenty-six {
+    margin-left: -29px;
+}
+
+.--twenty-six {
+    background: url(../img/00-mercedes-benz-mbsocialcar-glc-350-e-4matic-x-253-calendar-june-2018-2560x1440-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242px;
+    width: 456px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--twenty-six:hover .item-content {
+    height: 50%;
+}
+
+.--twenty-six:hover .item-content p {
+    opacity: 1;
+}
+
+.--twenty-six:hover .item-content h4 {
+    white-space: normal;
+}
+
+.--twenty-six:hover .item-content-overlay {
+    opacity: 0;
+}
+
+.item-twenty-seven {
+    margin-left: -28px;
+}
+
+.--twenty-seven {
+    background: url(../img/00-mercedes-benz-vehicles-mbsocialcar-a-class-w-177-2560x1440_2-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 469px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--twenty-seven:hover .item-content {
+    height: 50%;
+}
+
+.--twenty-seven:hover .item-content p {
+    opacity: 1;
+}
+
+.--twenty-seven:hover .item-content h4 {
+    white-space: normal;
+}
+
+.--twenty-eight {
+    background: url(../img/00-mercedes-benz-vehicles-mbsocialcar-a-class-w-177-2560x1440_2-848x477.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--twenty-eight:hover .item-content {
+    height: 25%;
+}
+
+.--twenty-eight:hover .item-content p {
+    opacity: 1;
+}
+
+.--twenty-eight:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-twenty-nine {
+    margin-left: -28px;
+}
+
+.--twenty-nine {
+    background: url(../img/mercedes-amg-e-63-s-4matic-w-213-road-trip-switzerland-mbvideocar-1280x720-848x477.jpg);
+    height: 241px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 469px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.item-content--twenty-nine {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .35);
+    transition: height .5s, background 1.5s;
+    overflow: hidden;
+    padding: 13px 13px 13px 31px;
+    z-index: 15;
+}
+
+.item-content--twenty-nine h4 {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    font-family: CorporateACondensedRegular, Times New Roman, Arial, serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-content--twenty-nine p {
+    margin-top: 2px;
+    color: #fff;
+    opacity: 0;
+    line-height: 18px;
+    transition: opacity .5s ease-out;
+}
+
+.--twenty-nine:hover .item-content--twenty-nine {
+    height: 50%;
+}
+
+.--twenty-nine:hover .item-content--twenty-nine p {
+    opacity: 1;
+}
+
+.--twenty-nine:hover .item-content--twenty-nine h4 {
+    white-space: normal;
+}
+
+.item-thirty {
+    margin-left: -43px;
+    margin-top: 2px;
+}
+
+.--thirty {
+    background: url(../img/mbcom_service-inhalte_first-contact_mbs_rgb_aireal_wood_2560x1440-848x477.jpg);
+    height: 257px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 469px;
+    position: relative;
+}
+
+.--thirty:hover .item-content {
+    height: 50%;
+}
+
+.--thirty:hover .item-content p {
+    opacity: 1;
+}
+
+.--thirty:hover .item-content h4 {
+    white-space: normal;
+}
+
+.--thirty-one {
+    background: url(../img/mbcom_driving-events_slideshow_highlightvideo_2560x1440-1-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--thirty-one:hover .item-content {
+    height: 50%;
+}
+
+.--thirty-one:hover .item-content p {
+    opacity: 1;
+}
+
+.--thirty-one:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-thirty-two {
+    margin-left: -29px;
+}
+
+.--thirty-two {
+    background: url(../img/einsatzfahrzeug-sprinter-ecerpt-848x477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 241px;
+    width: 456px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.--thirty-two:hover .item-content {
+    height: 50%;
+}
+
+.--thirty-two:hover .item-content p {
+    opacity: 1;
+}
+
+.--thirty-two:hover .item-content h4 {
+    white-space: normal;
+}
+
+.item-content-button {
+    clear: both;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.mbcom-thumb-more-button:hover{
+    color: white;
+}
+
+.btn{
+    transition: color .25s ease-out;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: CorporateSRegular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.btn-dark-2{
+    padding: 6px 20px;
+    background: #333;
+    background: linear-gradient(#303030,#202020);
+    border-color: #202020;
+    color: #999;
+}
+
+/* End Product */
+
+/* ft about */
+.fb-section{
+    background: black;
+    padding-top: 5em;
+}
+
+.fb--title{
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb-section li{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+
+.spa-cer{
+    height: 10px;
+}
+
+.fb-section-2{
+    background: black;
+    padding-top: 5em;
+    overflow: hidden;
+    padding-bottom: 5em;
+}
+
+.fb--title-2{
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.fb--title-text p{
+    font-family: CorporateACondensedRegular,Times New Roman,Arial,serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+}
+
+.fb--title-2::before{
+    display: block;
+    content: "";
+    position: relative;
+    height: 2px;
+    width: 60px;
+    background: #fff;
+    margin-bottom: 23px;
+}
+
+.fb--title-hr{
+    position: relative;
+    margin: 30px 0;
+    height: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.fb--title-hr::before{
+    display: block;
+    content: "";
+    position: absolute;
+    left: -30px;
+    right: -30px;
+    height: 1px;
+    background: #333;
+}
+
+.owl-stage-outer{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.owl-prev{
+    position: absolute;
+    display: block;
+    /* height: 20px; */
+    width: 20px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    transform: translateY(-50%);
+    padding: 0;
+    border: none;
+    top: 40px;
+    left: 10px;
+}
+
+.owl-prev span{
+    transition: color .25s;
+    color: #bfbfbf;
+    font-size: 50px;
+}
+
+.owl-next{
+    position: absolute;
+    display: block;
+    /* height: 20px; */
+    width: 20px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    top: 40px;
+    transform: translateY(-50%);
+    padding: 0;
+    border: none;
+    right: 10px;
+}
+
+.owl-next span{
+    transition: color .25s;
+    color: #bfbfbf;
+    font-size: 50px;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: -85px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00adef;
+}
+
+.owl-dot span{
+    margin-left: 5px!important;
+    margin-right: 5px!important;
+    width: 60px!important;
+    height: 2px!important;
+    border: none!important;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none!important;
+    color: #FFF;
+    text-decoration: none;
+    border: #1e1e1e!important;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    margin: 0px 7px!important;
+}
+
+.fb-section-3{
+    background: black;
+    padding-top: 7em;
+}
+
+.fb-section-3--width{
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb--title-3::before{
+    display: block;
+    content: "";
+    position: relative;
+    height: 2px;
+    width: 60px;
+    background: #fff;
+    margin-bottom: 23px;
+}
+
+.fb--title-3 h3{
+    font-family: CorporateACondensedRegular,Times New Roman,Arial,serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+}
+
+.fb-section-3 ul > li a{
+    transition: color .25s ease-out;
+    color: #666;
+}
+
+.fb-section-3 ul > li a:hover {
+    transition: color .25s ease-out;
+    color: var(--color2);
+}
+
+.fb-section-4{
+    background: black;
+    padding-top: 5em;
+    overflow: hidden;
+    padding-bottom: 5em;
+}
+
+.fb-title-4{
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.fb-title-4::before{
+    display: block;
+    content: "";
+    position: relative;
+    height: 2px;
+    width: 60px;
+    background: #fff;
+    margin-bottom: 23px;
+}
+
+.fb-title-text p{
+    font-family: CorporateACondensedRegular,Times New Roman,Arial,serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+}
+
+.form--footer .form-control {
+    color: #fff!important;
+    vertical-align: top;
+    display: inline-block;
+    width: 69%;
+    height: 40px;
+    background: #2e2e2e;
+    border: 1px solid #2e2e2e;
+    font-size: 21px;
+    padding: 2px 15px;
+    font-family: CorporateACondensedRegular,Times New Roman,Arial,serif;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form--footer .btn{
+    vertical-align: top;
+    width: calc(30% - 2px);
+    height: 40px;
+    border-radius: 0;
+    border-top-color: #202020;
+    border-bottom-color: #101010;
+    border-left-color: #2e2e2e;
+    background: #222;
+    background: linear-gradient(#202020,#101010);
+    font-size: 14px;
+    /* padding: 6px 20px;
+    border-color: #202020;
+    color: #999; */
+}
+
+.form--footer button:hover{
+    color: var(--color2);
+    transition: color .25s ease-out;
+}
+
+.fb--newsletter{
+    margin-top: 10px;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+
+.styled-checkbox {
+    position: absolute;
+    opacity: 0;
+    margin: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.styled-checkbox+label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+
+.styled-checkbox+label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 16px;
+    height: 16px;
+    background: #2e2e2e;
+}
+
+.styled-checkbox:checked+label:after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 9px;
+    background: #fff;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 #fff, 4px 0 0 #fff, 4px -2px 0 #fff, 4px -4px 0 #fff, 4px -6px 0 #fff, 4px -8px 0 #fff;
+    transform: rotate(45deg);
+}
+
+.col-md-offset-1 {
+    margin-left: 8.33333%;
+}
+
+.fb--newsletter label > a:hover{
+    color: var(--color2)!important;
+}
+
+.fb-footer-social {
+    width: 100%;
+    overflow: hidden;
+}
+
+.fb-footer-social ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 -20px;
+}
+
+.fb-footer-social ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 -20px;
+}
+
+.fb-footer-social li {
+    display: inline-block;
+    font-size: 22px;
+    margin: 20px;
+    width: 28px;
+}
+
+.fb-footer-social a {
+    color: #999;
+    color: hsla(0,0%,60%,.4);
+}
+
+.fb-footer-social span {
+    font-size: 25px;
+    display: block;
+}
+
+.fb-footer-social span:hover{
+    color: #00adef;
+}
+/* End ft about */
