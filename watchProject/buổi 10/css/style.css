@@ -719,6 +719,14 @@ textarea,
         justify-content: space-between;
         line-height: 35px;
     }
+
+    .bake-team-img img {
+        height: unset;
+    }
+
+    .bake-team-content h4 {
+        font-size: 1.4em;
+    }
 }
 
 @media (max-width: 414px) {
@@ -726,6 +734,14 @@ textarea,
         padding: unset;
         justify-content: unset;
         line-height: 35px;
+    }
+
+    .bake-team-img img {
+        height: unset;
+    }
+
+    .bake-team-content h4 {
+        font-size: 1.4em;
     }
 }
 
@@ -735,6 +751,14 @@ textarea,
         justify-content: space-between;
         line-height: 35px;
     }
+
+    .bake-team-img img {
+        height: unset;
+    }
+
+    .bake-team-content h4 {
+        font-size: 1.4em;
+    }
 }
 
 @media (max-width: 568px) {
@@ -742,6 +766,14 @@ textarea,
         padding: unset;
         justify-content: space-between;
         line-height: 35px;
+    }
+
+    .bake-team-img img {
+        height: unset;
+    }
+
+    .bake-team-content h4 {
+        font-size: 1.4em;
     }
 }
 
@@ -764,6 +796,14 @@ textarea,
         justify-content: space-between;
         line-height: 35px;
     }
+
+    .bake-team-img img {
+        height: unset;
+    }
+
+    .bake-team-content h4 {
+        font-size: 1.4em;
+    }
 }
 
 @media (max-width: 800px) {
@@ -772,6 +812,14 @@ textarea,
         justify-content: space-between;
         line-height: 35px;
     }
+
+    .bake-team-img img {
+        height: unset;
+    }
+
+    .bake-team-content h4 {
+        font-size: 1.4em;
+    }
 }
 
 @media (max-width: 1080px) {
@@ -779,6 +827,14 @@ textarea,
         padding: unset;
         justify-content: space-between;
         line-height: 35px;
+    }
+
+    .bake-team-img img {
+        height: unset;
+    }
+
+    .bake-team-content h4 {
+        font-size: 1.4em;
     }
 }
 
@@ -789,4 +845,16 @@ textarea,
         justify-content: space-between;
         line-height: 35px;
     }
+
+    .bake-team-img img {
+        height: unset;
+    }
+
+    .bake-team-content h4 {
+        font-size: 1.4em;
+    }
+}
+
+.navbar-toggler-icon {
+    background: white;
 }
