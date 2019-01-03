@@ -212,10 +212,12 @@ function mySweet() {
 
 function inputError(id, tb, noticeChain) {
     var kq = true;
+    var InputFocus = getMyEle(id);
     var Input = getMyEle(id).value;
     var tbInput = getMyEle(tb);
     if (Input === "") {
         tbInput.innerHTML = noticeChain;
+        InputFocus.focus();
         // getMyClass('modal-content').click("btnAdd");
         kq = false;
     } else {
@@ -227,10 +229,12 @@ function inputError(id, tb, noticeChain) {
 
 function checkThePosition() {
     var kq = true;
+    var positionFocus = getMyEle('position');
     var position = getMyEle('position').value;
     var tbPosition = getMyEle('tbChucVu');
     if (position.selectedIndex == 0) {
         tbPosition.innerHTML = ThongBao_CHUCVU;
+        positionFocus.focus;
         kq = false;
     } else {
         tbPosition.innerHTML = "";
@@ -254,6 +258,14 @@ function checkInput() {
     if (kq1 && kq2 && kq3 && kq4 && kq5 && kq6 && kq7 && kq8) {
         kq = true;
     } else {
+        kp1.focus();
+        kp2.focus();
+        kp3.focus();
+        kp4.focus();
+        kp5.focus();
+        kp6.focus();
+        kp7.focus();
+        kp8.focus();
         kq = false;
     }
     return kq;
@@ -280,7 +292,7 @@ function checkEmail() {
     var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     if (!filter.test(email.value)) {
         tbEmail.innerHTML = ThongBao_HOPLEEMAIL;
-        email.focus;
+        email.focus();
         kq = false;
     } else {
         tbEmail.innerHTML = "";
@@ -291,6 +303,7 @@ function checkEmail() {
 // alert('Hay nhap dia chi email hop le.\nExample@gmail.com');
 
 function validatePhone() {
+    var phoneFocus = getMyEle("telePhone");
     var phone = getMyEle("telePhone").value;
     var tbPhone = getMyEle('tbTeleNumber');
     var filter = phone.replace(/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/);
@@ -299,6 +312,7 @@ function validatePhone() {
         return true;
     } else {
         tbPhone.innerHTML = ThongBao_HOPLEPHONE;
+        phoneFocus.focus();
         return false;
     }
 }
