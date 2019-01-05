@@ -884,6 +884,7 @@ ul.list-unstyled>li p {
 
     .myProject h3 {
         margin-right: 9rem;
+        margin: 0 auto;
     }
 
     ul.list-unstyled>li p {
@@ -965,6 +966,7 @@ ul.list-unstyled>li p {
 
     .myProject h3 {
         margin-right: 9rem;
+        margin: 0 auto;
     }
 
     body {
@@ -1173,6 +1175,7 @@ ul.list-unstyled>li p {
 
     .myProject h3 {
         margin-right: 9rem;
+        margin: 0 auto;
     }
 
     body {
@@ -1180,8 +1183,13 @@ ul.list-unstyled>li p {
         width: 100%;
     }
 
+    .loader.is-active {
+        left: 120%!important;
+    }
+
     .res-intro-2,
-    .res-project {
+    .res-project,
+    .res-education {
         overflow: hidden;
     }
 }
