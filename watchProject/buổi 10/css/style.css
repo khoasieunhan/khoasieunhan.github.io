@@ -870,6 +870,15 @@ textarea,
         padding-bottom: 1em;
         padding-top: 1em;
     }
+
+    .service-text h4 {
+        padding: unset;
+    }
+
+    .service-learn {
+        padding: unset;
+        padding-bottom: 1em;
+    }
 }
 
 .navbar-toggler-icon {
