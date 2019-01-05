@@ -559,14 +559,17 @@ ul.timeline>li p {
         padding: 0;
         width: 90%;
     }
+
     .timeline::before {
         left: 0;
     }
+
     .timeline .timeline-item .timeline-content {
         float: right;
         text-align: left;
         width: 90%;
     }
+
     .timeline .timeline-item .timeline-content::before,
     .timeline .timeline-item .timeline-content.right::before {
         border-left: 0;
@@ -574,6 +577,7 @@ ul.timeline>li p {
         left: 10%;
         margin-left: -6px;
     }
+
     .timeline .timeline-item .timeline-icon {
         left: 0;
     }
@@ -702,11 +706,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -716,11 +732,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 90%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -730,11 +758,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -744,14 +784,27 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
     }
+
     ul.list-unstyled>li p {
         font-size: 20px;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -761,14 +814,27 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
     }
+
     ul.list-unstyled>li p {
         font-size: 20px;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -778,15 +844,28 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
     }
+
     ul.list-unstyled>li p {
         font-size: 20px;
         padding: 14px;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -798,14 +877,27 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
     }
+
     ul.list-unstyled>li p {
         font-size: 20px;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -813,11 +905,24 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project, 
+    .res-education {
+        overflow: hidden;
     }
 }
 
@@ -827,11 +932,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -27em;
     }
+
     .myProject h3 {
         /* margin-right: 9rem; */
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -841,11 +958,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -855,11 +984,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -867,27 +1008,52 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 90%;
     }
+
     ul.timeline>li a:nth-child(1) {
         font-size: 15px;
     }
+
     ul.timeline>li p {
         text-align: center;
     }
+
     ul.list-unstyled>li p {
-        font-size: 15px;
-        padding: 11px;
+        font-size: 13px;
+        padding: 12px;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
 @media (max-width: 740px) {
     .w-responsive {
         width: 95%;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -897,11 +1063,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -909,13 +1087,25 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
         /* text-align: center; */
         font-size: 25px;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -925,11 +1115,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -938,11 +1140,23 @@ ul.list-unstyled>li p {
         width: 90%;
         padding: 20px;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -952,11 +1166,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -964,11 +1190,27 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
-    .myProject h3 {
+
+    /* .myProject h3 {
         margin-right: 9rem;
+    } */
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
+    }
+
+    .experiance-timeline {
+        padding-left: 15px;
     }
 }
 
@@ -978,11 +1220,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -991,11 +1245,32 @@ ul.list-unstyled>li p {
         width: 85%;
         padding: 18px;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
+    }
+
+    .res-row.row {
+        margin-right: unset;
+        margin-left: unset;
+    }
+
+    [data-aos=flip-right]{
+        transform: unset;
     }
 }
 
@@ -1005,11 +1280,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -1017,11 +1304,28 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 90%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
+    }
+
+    .res-row.row {
+        margin-right: unset;
+        margin-left: unset;
     }
 }
 
@@ -1031,15 +1335,29 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
     }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
+    }
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+
     /* .experiance-timeline {
         width: 90%;
     } */
@@ -1048,19 +1366,37 @@ ul.list-unstyled>li p {
         padding: 0;
         width: 90%;
     }
+
     .experiance-title h3 {
         font-size: 20px;
     }
+
     ul.timeline>li p {
         text-align: center;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
         /* text-align: center; */
         font-size: 25px;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
+    }
+
+    .navbar-brand {
+        font-size: 1.2em;
     }
 }
 
@@ -1070,11 +1406,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -1082,11 +1430,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -1096,11 +1456,23 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 95%;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin-right: 9rem;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
     }
 }
 
@@ -1108,22 +1480,41 @@ ul.list-unstyled>li p {
     .experiance-timeline {
         width: 90%;
     }
+
     ul.timeline>li p {
         text-align: center;
     }
+
     .experiance-title h3 {
         font-size: 25px;
     }
+
     .scrollTop {
         right: -29em;
     }
+
     .myProject h3 {
         margin: 0 auto;
+    }
+
+    body {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .res-intro-2,
+    .res-project {
+        overflow: hidden;
+    }
+
+    .res-grid-inform [data-aos=flip-right]{
+        transform: unset;
     }
 }
 
 /* mdb bg */
-.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link,
+.navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
     background-color: rgba(10, 46, 224, 0.27);
 }
 
