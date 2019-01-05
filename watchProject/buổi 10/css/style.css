@@ -853,6 +853,23 @@ textarea,
     .bake-team-content h4 {
         font-size: 1.4em;
     }
+
+    .service {
+        height: unset;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+
+    .service h1 {
+        padding: unset;
+        padding-top: 1.5em;
+    }
+
+    .baketeam h1 {
+        padding: unset;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
 }
 
 .navbar-toggler-icon {

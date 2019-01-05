@@ -806,6 +806,10 @@ ul.list-unstyled>li p {
     .res-project {
         overflow: hidden;
     }
+
+    .My-Project .overlay-info .icon {
+        top: 50%;
+    }
 }
 
 /* iPads (landscape) ----------- */
@@ -927,6 +931,12 @@ ul.list-unstyled>li p {
     }
 }
 
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    .My-Project .overlay-info .icon {
+        top: 75%;
+    }
+}
+
 /* Desktops and laptops ----------- */
 
 @media only screen and (min-width: 1224px) {
@@ -1041,9 +1051,19 @@ ul.list-unstyled>li p {
     .res-project {
         overflow: hidden;
     }
+
+    .My-Project .overlay-info .icon {
+        top: 75%;
+    }
 }
 
-@media (max-width: 740px) {
+/* @media (min-width: 360px) {
+    .My-Project .overlay-info .icon {
+        top: 47%;
+    }
+} */
+
+/* @media (max-width: 740px) {
     .w-responsive {
         width: 95%;
     }
@@ -1057,7 +1077,8 @@ ul.list-unstyled>li p {
     .res-project {
         overflow: hidden;
     }
-}
+
+} */
 
 /* iPhone 5 ----------- */
 
@@ -1082,6 +1103,10 @@ ul.list-unstyled>li p {
     .res-intro-2,
     .res-project {
         overflow: hidden;
+    }
+
+    .My-Project .overlay-info .icon {
+        top: 47%;
     }
 }
 
@@ -1108,6 +1133,10 @@ ul.list-unstyled>li p {
     .res-intro-2,
     .res-project {
         overflow: hidden;
+    }
+
+    .My-Project .overlay-info .icon {
+        top: 55%;
     }
 }
 
@@ -1160,6 +1189,10 @@ ul.list-unstyled>li p {
     .res-project {
         overflow: hidden;
     }
+
+    .My-Project .overlay-info .icon {
+        top: 85%;
+    }
 }
 
 /* iPhone 6+, 7+, 8+ ----------- */
@@ -1191,6 +1224,10 @@ ul.list-unstyled>li p {
     .res-project,
     .res-education {
         overflow: hidden;
+    }
+
+    .My-Project .overlay-info .icon {
+        top: 75%;
     }
 }
 
@@ -1246,6 +1283,10 @@ ul.list-unstyled>li p {
     .res-project {
         overflow: hidden;
     }
+
+    .My-Project .overlay-info .icon {
+        top: 50%;
+    }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
@@ -1279,6 +1320,10 @@ ul.list-unstyled>li p {
 
     [data-aos=flip-right]{
         transform: unset;
+    }
+
+    .My-Project .overlay-info .icon {
+        top: 45%;
     }
 }
 
@@ -1334,6 +1379,10 @@ ul.list-unstyled>li p {
     .res-row.row {
         margin-right: unset;
         margin-left: unset;
+    }
+
+    .My-Project .overlay-info .icon {
+        top: 75%;
     }
 }
 
@@ -1517,6 +1566,10 @@ ul.list-unstyled>li p {
 
     .res-grid-inform [data-aos=flip-right]{
         transform: unset;
+    }
+
+    .My-Project .overlay-info .icon {
+        top: 47%;
     }
 }
 
